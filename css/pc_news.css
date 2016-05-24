@@ -1,0 +1,145 @@
+@import url("./normalize.css");
+@import url("./skeleton.css");
+@import url("./sample.css");
+
+/* header
+  ----------------------------------------------- */
+  header #header_in{
+    padding: 15px 0 10px 0;
+    
+  }
+  h1{
+    margin:0;
+    padding:0;
+    
+  }
+  
+  header .sp_navi{
+    display:none;
+    
+  }
+  
+  header .pc_navi_li{
+    margin:0;
+    padding:0;
+    
+  }
+  
+  header .pc_navi_li li{
+    margin:5px 0 0 0 ;
+    padding:0;
+    
+  }
+  header .pc_navi_li li a{
+    color:#626262;
+    font-weight:bold;
+    font-size:14px;
+    font-size:1.4rem;
+    float:left;
+    padding-right:10px;
+    
+  }
+  
+  header .pc_navi_li li.navi_top a{
+    background-repeat:no-repeat;
+    display: inline-block;
+    line-height:40px;
+    padding-left:50px;
+    background-image:url("../images/top/navi_top.png");
+    background-size:40px 40px;
+    
+  }
+  
+  header .pc_navi_li li.navi_news a{
+    background-repeat:no-repeat;
+    display:inline-block;
+    line-height:40px;
+    padding-left:50px;
+    background-image:url("../images/top/navi_news.png");
+    background-size:40px 40px;
+    
+  }
+  
+  header .pc_navi_li li.navi_company a{
+    background-repeat:no-repeat;
+    display:inline-block;
+    line-height:40px;
+    padding-left:50px;
+    background-image:url("../images/top/navi_company.png");
+    background-size:40px 40px;
+    
+  }
+  
+  /* sub_cover
+  -------------------------------------------------------- */
+  #sub_cover{
+      padding: 80px 0;
+  }
+  
+  /* contents
+  --------------------------------------------------------- */
+   
+  #contents #sidebar .pc_sidemenu h3{
+    color: #42b9d0;
+    font-size: 14px;
+    font-size:1.4rem;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    background-color: #f3f9fb;
+    padding:15px;
+    margin-bottom: 10px;
+  }
+  
+   #contents #sidebar .pc_sidemenu li{
+    padding-bottom: 20px;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 20px;
+    background-image: url("../images/news/side_arrow.png");
+    background-size: 4px 8px;
+  }
+  
+   
+  #contents #sidebar .pc_sidemenu li a{
+    color: #339fd1;
+    text-decoration: none;
+  }
+  
+   #contents #sidebar .pc_sidemenu li span{
+      display: inline-block;
+      margin-bottom: 0;
+      padding-right: 10px;
+  }
+  
+  
+  
+  #contents{
+      padding-top: 35px;
+      padding-bottom: 70px;
+  }
+  
+  #contents #main{
+      padding-right: 20px;
+  }
+  
+  #contents #main h2{
+      font-size:20px;
+      font-size: 2rem;
+      padding-bottom: 20px;
+  }
+  
+    #contents #main .news_li {
+    font-size:15px;
+    font-size:1.5rem;
+  }
+  
+ 
+ 
+  
+ 
+  
+ 
+  
