@@ -136,8 +136,22 @@
     font-size:1.5rem;
   }
   
+ @media screen and (-webkit-min-device-pixcel-ratio:2),(min-resolution:2dppx){ 
+   #cover_area{ background-image: url("../images/top/cover@2x.jpg") } 
+   
+ }
+   
+   @media screen and (-webkit-min-device-pixcel-ratio:2),(min-resolution:2dppx){ 
+     #sub_cover{ 
+       background-image:url("../images/news/sub_cover@2x.jpg"); } 
+     
+   }
  
- 
+ @media screen and (-webkit-min-device-pixcel-ratio:2),(min-resolution:2dppx){
+   #contents #sidebar .pc_sidemenu li{
+     background-image:url("../images/news/side_arrow@2x.png");
+   }
+ }
   
  
   
